@@ -1,0 +1,15 @@
+:root {
+  --color-primary: #5c4a75;
+  --color-primary-light: #lavender;
+  --color-secondary: lavender;
+  --color-accent: #92c6a1;
+  --color-neutral-beige: #e2e2e2;
+  --color-whatever: peachpuff;
+
+  --font-primary: "Alegreya Sans", "Trebuchet MS", Arial, sans-serif;
+  --font-secondary: "Source Code Pro", Menlo, Consolas, monospace;
+}
+
+html {
+  font-family: var(--font-primary)
+}
