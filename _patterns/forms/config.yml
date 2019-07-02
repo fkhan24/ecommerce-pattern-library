@@ -1,0 +1,37 @@
+title: "Form"
+description: |
+  Forms are used for documenting information in the necessary text fiellds during checkout or subscribing to a mailing list.
+
+patterns:
+  data-list:
+    title: "Data list"
+    description: |
+      Used for selecting category from a list.
+  date-picker:
+    title: "Date Picker"
+    description: |
+      Can be used to select year, month, day and time.
+  email:
+    title: "Email"
+    description: |
+      Input email when signing up is required.
+  main-form:
+    title: "Main Form"
+    description: |
+      Default for field setting.
+  number-picker:
+    title: "Number Picker"
+    description: |
+      Select quantity of items to add to cart.
+  radio-button:
+    title: "Radio Button"
+    description: |
+      Selecting shipping method.
+  search:
+    title: "Search"
+    description: |
+      Locating products through keywords.
+  text:
+    title: "Text"
+    description: |
+      Default for text-area setting.

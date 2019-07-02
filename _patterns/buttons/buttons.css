@@ -1,0 +1,39 @@
+.btn-nav {
+  border-radius: 100px;
+  background-color: var(--color-primary);
+  border-color: var(--color-primary);
+}
+
+.btn-nav:hover {
+  background-color: var(--color-neutral);
+  color: var(--color-primary);
+  border-color: var(--color-primary);
+}
+
+.btn-one {
+  border-radius: 100px;
+  background-color: var(--color-secondary);
+  border-color: var(--color-secondary);
+}
+
+.btn:focus {
+  outline: 3px solid #000;
+}
+
+.btn-extra {
+  background-color: var(--color-neutral);
+  color: var(--color-primary);
+  border-color: var(--color-primary);
+}
+
+.btn-extra:hover {
+  background-color: var(--color-primary);
+  color: var(--color-neutral);
+  border-color: var(--color-primary);
+}
+
+.btn-cart {
+  background-color: var(--color-neutral);
+  color: var(--color-secondary);
+  border-color: var(--color-secondary);
+}

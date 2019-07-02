@@ -1,0 +1,9 @@
+title: "Banners"
+description: |
+  Banners are used as a call to action on the main page.
+
+patterns:
+  main:
+    title: "Main Banner"
+    description: |
+      Main banner with call to action and button linking to products.

@@ -2,5 +2,22 @@ permalink: pretty
 theme: jekyll_patternbot
 
 patternbot:
+  title: "Herbal Doses"
+  description: |
+    At Herbal Doses we believe that nautral wellness is the way to a healthier mind, body and soul.
   font_url: "https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap"
   font_url: "https://fonts.googleapis.com/css?family=Montserrat:400,400i,700&display=swap"
+  colors:
+    background: "--color-neutral"
+    accent: "--color-primary"
+    patterns:
+      brand.logos: "--color-secondary"
+  rationales:
+    typefaces.primary: |
+      Montserrat was selected because it gives a voice to the headings of each page to show its importance and grab the attention of the consumer. It is used for all headings.
+    typefaces.secondary: |
+      Raleway is for all body copy typefaces. It was selected because the font weight is light and wide to create a sense of openess and a calm feel to the text.
+    colors.primary: |
+      The primary colours represent plant-based products and organic remedies.
+    colors.secondary: |
+      The secondary colours represent flora and fauna and are meant to contrast with the primary colours.

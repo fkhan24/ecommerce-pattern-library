@@ -1,15 +1,72 @@
 :root {
   --color-primary: #377e6a;
+  --color-primary-medium: #6ca293;
   --color-primary-light: #c3d8d2;
-  --color-secondary: #6ca293;
-  --color-accent: #75528b;
+  --color-secondary: #75528b;
   --color-accent-light: #bba7c7;
-  --color-neutral-beige: #e2e2e2;
+  --color-neutral: #fff;
 
   --font-primary: 'Montserrat', sans-serif;
   --font-secondary: 'Raleway', sans-serif;
 }
 
 html {
-  font-family: var(--font-primary)
+  font-family: var(--font-primary);
+}
+
+h1 {
+  font-family: var(--font-primary);
+  color: var(--color-primary);
+}
+
+h2 {
+  font-family: var(--font-primary);
+  color: var(--color-secondary);
+}
+
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-primary);
+  color: var(--color-primary-medium);
+}
+
+ul,
+ol {
+  text-decoration: none;
+  font-family: var(--font-primary);
+  color: var(--color-neutral);
+}
+
+dl {
+  text-decoration: none;
+  font-family: var(--font-secondary);
+}
+
+a {
+  text-decoration: none;
+  font-family: var(--font-primary);
+  color: var(--color-neutral);
+  font-weight: bold;
+}
+
+blockquote,
+cite,
+em, strong,
+del,
+ins,
+abbr,
+dfn,
+i,
+b,
+q,
+s,
+u {
+  text-decoration: none;
+  color: var(--color-secondary);
+}
+
+mark {
+  background-color: var(--color-accent-light);
 }

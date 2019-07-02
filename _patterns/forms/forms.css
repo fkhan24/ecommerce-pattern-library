@@ -1,0 +1,109 @@
+.bg-check {
+  background-color: var(--color-accent-light);
+}
+
+.bg-main {
+  color: var(--color-primary-light);
+  border-color: var(--color-accent-light);
+  background: var(--color-primary-light);
+}
+
+.text-c-ii {
+  color: var(--color-secondary);
+}
+
+.border-col {
+  border-color: var(--color-accent-light);
+}
+
+textarea {
+  border-color: var(--color-primary-medium);
+  border-width: 3px;
+}
+
+label::before {
+  border: 2px solid var(--color-primary);
+}
+
+input#province {
+  background-color: var(--color-neutral);
+  border-color: var(--color-primary-light);
+  color: var(--color-accent-light);
+  font-weight: bold;
+}
+
+input#firstname {
+  font-weight: bold;
+}
+
+input#lastname {
+  font-weight: bold;
+}
+
+input#address {
+  font-weight: bold;
+}
+
+input#country {
+  font-weight: bold;
+}
+
+input#city {
+  font-weight: bold;
+}
+
+input#postalcode {
+  font-weight: bold;
+}
+
+input#phone {
+  font-weight: bold;
+}
+
+input#email {
+  background-color: var(--color-primary-light);
+  border-color: var(--color-primary-light);
+  color: var(--color-accent-light);
+  font-weight: bold;
+}
+
+input#date {
+  background-color: var(--color-neutral);
+  border-color: var(--color-primary-light);
+  color: var(--color-accent-light);
+}
+
+.flag-optional {
+  color: #999;
+}
+
+.dif-col {
+  color: var(--color-accent-light);
+}
+
+.number-col {
+  width: 50px;
+}
+
+input#number {
+  border-color: var(--color-secondary);
+}
+
+.is-validated input:invalid,
+.is-validated input[type="checkbox"]:invalid + label::before,
+.is-validated:invalid,
+.is-validated[type="checkbox"]:invalid + label::before {
+  border-color: #000;
+}
+
+[type="radio"] + label::before {
+  border-color: var(--color-primary);
+}
+
+[type="radio"]:checked + label::before {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='256' height='256' viewBox='0 0 256 256'%3E%3Ccircle fill='var(--color-primary)' cx='128' cy='128' r='70.4'/%3E%3C/svg%3E")
+}
+
+input.srch {
+  padding-left: 2em;
+}

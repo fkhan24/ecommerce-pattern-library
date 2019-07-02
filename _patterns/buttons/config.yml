@@ -1,0 +1,23 @@
+title: "Button"
+description: |
+  Buttons should be used in situations where a dramatic, obvious action is required.
+
+patterns:
+  basic:
+    title: "Main Button"
+    description: |
+      Default to using the main button.
+    width: "12em"
+  cart:
+    title: "Cart Button"
+    description: |
+      Link to cart page.
+  extra:
+    title: "Extra Button"
+    description: |
+      Use this incase another button can't be used.
+  nav:
+    title: "Nav Button"
+    description: |
+      Use for navigation in the header/footer.
+    background: "--color-accent-light"

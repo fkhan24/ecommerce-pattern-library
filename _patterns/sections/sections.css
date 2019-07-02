@@ -1,0 +1,118 @@
+.bg-col {
+  background-color: var(--color-primary-light);
+}
+
+.p-col {
+  color: var(--color-primary);
+}
+
+.max-w {
+  max-width: 32em;
+  margin: 0 auto;
+}
+
+.rd-gem {
+  color: var(--color-redgem);
+  border-color: var(--color-redgem);
+  border-width: thick;
+  border-style: solid;
+  width: 4em;
+  margin: 0 auto;
+}
+
+.rd-gem-ii {
+  color: var(--color-redgem);
+}
+
+.orange-gem {
+  color: var(--color-orangejuice);
+  border-color: var(--color-orangejuice);
+  border-width: thick;
+  border-style: solid;
+  width: 4em;
+  margin: 0 auto;
+}
+
+.orange-gem-ii {
+  color: var(--color-orangejuice);
+}
+
+.yellow-gem {
+  color: var(--color-coldstar);
+  border-color: var(--color-coldstar);
+  border-width: thick;
+  border-style: solid;
+  width: 4em;
+  margin: 0 auto;
+}
+
+.yellow-gem-ii {
+  color: var(--color-coldstar);
+}
+
+.green-gem {
+  color: var(--color-naturalgreen);
+  border-color: var(--color-naturalgreen);
+  border-width: thick;
+  border-style: solid;
+  width: 5em;
+  margin: 0 auto;
+}
+
+.green-gem-ii {
+  color: var(--color-naturalgreen);
+}
+
+.blue-gem-i {
+  color: var(--color-blueoceans);
+  border-color: var(--color-blueoceans);
+  border-width: thick;
+  border-style: solid;
+  width: 4em;
+  margin: 0 auto;
+}
+
+.blue-gem-ii {
+  color: var(--color-blueoceans);
+}
+
+.purple-gem {
+  color: var(--color-purpleofairy);
+  border-color: var(--color-purpleofairy);
+  border-width: thick;
+  border-style: solid;
+  min-width: 4em;
+  max-width: 5em;
+  margin: 0 auto;
+}
+
+.purple-gem-ii {
+  color: var(--color-purpleofairy);
+}
+
+.blue-gem {
+  color: var(--color-primary);
+  border-color: var(--color-primary-light);
+  border-width: thick;
+  border-style: solid;
+  width: 4em;
+  margin: 0 auto;
+}
+
+.blue-txt {
+  color: var(--color-primary);
+}
+
+.sec-size {
+  max-width: 40em;
+  margin: 0 auto;
+}
+
+.sec-cards {
+  max-width: 40em;
+  margin: 0 auto;
+}
+
+.align-class {
+  text-align: right;
+}

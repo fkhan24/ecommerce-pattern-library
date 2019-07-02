@@ -1,0 +1,15 @@
+title: "Cards"
+description: |
+  Cards are used to organize product information on the page.
+
+patterns:
+  product-card:
+    title: "Product Card"
+    description: |
+      Main product card with pricing and checkout option.
+    width: "12em"
+  product-detail:
+    title: "Product Detail Card"
+    description: |
+      Card with product information.
+    width: 30em;

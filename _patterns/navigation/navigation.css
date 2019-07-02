@@ -1,0 +1,42 @@
+a:hover {
+  color: var(--color-secondary);
+}
+
+a {
+  color: var(--color-neutral);
+}
+
+ul > li::before {
+  color: var(--color-primary-light);
+}
+
+.main-change {
+  color: var(--color-secondary);
+}
+
+.main-change:hover {
+  color: var(--color-primary);
+}
+
+.focusbtn:focus {
+  outline: 2px solid var(--color-primary-light);
+  border-color: var(--color-primary-light);
+  color: var(--color-secondary);
+  padding: 1px;
+}
+
+.hide {
+  display: none;
+}
+
+.footer {
+  background-color: var(--color-primary);
+}
+
+@media only screen and (min-width: 38em) {
+
+  .hide {
+    display: inline;
+  }
+
+}
