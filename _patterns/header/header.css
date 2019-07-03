@@ -10,6 +10,11 @@ a {
   font-weight: 500;
 }
 
+.logo-title {
+  color: var(--color-neutral);
+  font-weight: 500;
+}
+
 .img-class {
   width: 25%;
   top: 90px;
