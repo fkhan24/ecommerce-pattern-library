@@ -8,6 +8,15 @@
   background: var(--color-neutral);
 }
 
+.btn-email {
+  font-weight: 500;
+}
+
+.email-form {
+  padding: 2rem;
+  width: 70%;
+}
+
 .text-c-ii {
   color: var(--color-secondary);
 }

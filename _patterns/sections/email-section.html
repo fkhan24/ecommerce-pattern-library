@@ -1,0 +1,14 @@
+<div class="pad-t max-length">
+  <h3 class="text-center">Subscribe to our mailing list to receive promotional offers on the next best products!</h3>
+  <div class="email-form">
+    <label for="{{include.for}}"><h4 class="push-0">{{include.header}}</h4></label>
+    <input class="border-col bg-main" type="{{include.type}}" placeholder="{{include.placeholder}}" id="{{include.id}}" required aria-describedby="error">
+    <p class="error-message milli island-1-4 push-0" id="error">
+      <i class="icon i-16"><svg><use xlink:href="images/icons.svg#error" /></svg></i>
+      <span class="icon-label">Please provide content</span>
+    </p>
+    <div class="pad-t-1-2 btn-email">
+      {% pattern buttons/extra url="#" text="SIGN UP" aria="Send button" %}
+    </div>
+  </div>
+</div>
