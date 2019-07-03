@@ -21,3 +21,18 @@ patternbot:
       The primary colours represent plant-based products and organic remedies.
     colors.secondary: |
       The secondary colours represent flora and fauna and are meant to contrast with the primary colours.
+  layouts:
+    default: |
+      The default layout should be used for almsot every page and it includes the websites primary header and footer.
+    product: |
+      The default layout should be used for the product details page.
+
+collections:
+  products:
+    output: true
+
+defaults:
+  - scope:
+      path: _products
+    values:
+      layout: product

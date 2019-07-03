@@ -1,8 +1,8 @@
 <div class="card island">
-  <img class="img-flex" src="/images/lavender-oil.jpg" alt="">
-  <h2 class="text-center pad-t">Lavender essential oil</h2>
-  <p class="text-center yotta ">$10.00</p>
+  <img class="img-flex" src="{{include.data.image}}" alt="">
+  <h2 class="text-center pad-t">{{include.data.title}}</h2>
+  <p class="text-center yotta ">{{include.data.price}}</p>
   <div class="text-center">
-    {% pattern buttons/extra %}
+    {% pattern buttons/extra text="Buy Now" url=include.data.url %}
   </div>
 </div>

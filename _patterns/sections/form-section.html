@@ -1,0 +1,30 @@
+<div class="border">
+  <div>
+    <h2 class="push-0">SHIPPING METHOD</h2>
+    <div>
+      {% pattern forms/radio-button text="Standard Shipping - FREE" %}
+      <p class="push-0">(4-9 Business Days)</p>
+    </div>
+    <div>
+      {% pattern forms/radio-button text="Expedited - $20.00" %}
+      <p>(2 Business Days)</p>
+    </div>
+  </div>
+
+  <div>
+    <h3 class="push-0">LAVENDER OIL - $20.00</h3>
+    <div>
+      <p class="inline-block">QTY:</p>
+      <div class="inline-block">
+        {% pattern forms/number-picker %}
+      </div>
+    </div>
+  </div>
+
+  <div>
+    <h4 class="push-0">SUBTOTAL</h4>
+    <h4 class="push-0">SHIPPING - FREE</h4>
+    <h4 class="push-0">TAXES - TBD</h4>
+    <h4 class="push-0">ORDER TOTAL - $20.00</h4>
+  </div>
+</div>

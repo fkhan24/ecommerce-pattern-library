@@ -8,8 +8,27 @@ patterns:
     description: |
       Main product card with pricing and checkout option.
     width: "12em"
+    fields:
+      - name: data
+        type: object
+        data:
+          source: "site.products[0]"
+          type: Product
   product-detail:
     title: "Product Detail Card"
     description: |
       Card with product information.
     width: 30em;
+    fields:
+      - name: image
+        type: string
+        example: "/images/eucalyptus-oil.jpg"
+      - name: name
+        type: string
+        example: "Eucalyptus"
+      - name: price
+        type: string
+        example: "$10.00"
+      - name: description
+        type: string
+        example: "Eucalyptus essential oil is obtained from fresh leaves of the tall, evergreen eucalyptus tree."

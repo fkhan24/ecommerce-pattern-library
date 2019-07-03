@@ -1,0 +1,24 @@
+title: "Sections"
+description: |
+  Sections are used for organizing large chunks of content.
+
+patterns:
+  benefits:
+    title: "Benefits"
+    description: |
+      Used for placing icon descriptions.
+  text-section:
+    title: "Text Section"
+    description: |
+      Used for large bodies of text.
+    fields:
+      - name: header
+        type: string
+        example: "What is Aromatherapy?"
+      - name: text
+        type: string
+        example: "Aromatherapy is a pseudoscience. It uses aromatic materials, including essential oils, and other aroma compounds, with claims for improving psychological or physical well-being."
+  form-section:
+    title: "Form Section"
+    description: |
+      Used to separate form content.

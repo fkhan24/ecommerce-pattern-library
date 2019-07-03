@@ -11,14 +11,26 @@ patterns:
     title: "Date Picker"
     description: |
       Can be used to select year, month, day and time.
-  email:
-    title: "Email"
-    description: |
-      Input email when signing up is required.
   main-form:
     title: "Main Form"
     description: |
       Default for field setting.
+    fields:
+      - name: for
+        type: string
+        example: "email"
+      - name: header
+        type: string
+        example: "Email"
+      - name: type
+        type: string
+        example: "email"
+      - name: placeholder
+        type: string
+        example: "please type email"
+      - name: id
+        type: string
+        example: "email"
   number-picker:
     title: "Number Picker"
     description: |
@@ -27,11 +39,15 @@ patterns:
     title: "Radio Button"
     description: |
       Selecting shipping method.
-  search:
-    title: "Search"
-    description: |
-      Locating products through keywords.
+    fields:
+      - name: text
+        type: string
+        example: "Sign up for subscription."
   text:
     title: "Text"
     description: |
       Default for text-area setting.
+    fields:
+      - name: text
+        type: string
+        example: "Tell us about yourself."

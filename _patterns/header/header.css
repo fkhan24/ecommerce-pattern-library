@@ -2,12 +2,12 @@ h3 {
   color: var(--color-neutral);
 }
 
-.header {
-  background-image: url("/images/banner.jpg");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  min-height: 800px;
+header {
+  background-color: var(--color-primary);
+}
+
+a {
+  font-weight: 500;
 }
 
 .img-class {

@@ -3,7 +3,14 @@ description: |
   Banners are used as a call to action on the main page.
 
 patterns:
-  main:
+  banner:
     title: "Main Banner"
     description: |
       Main banner with call to action and button linking to products.
+    fields:
+      - name: image
+        type: string
+        example: "banner"
+      - name: text
+        type: string
+        example: "Infuse your senses with a dose of our essential oils"
