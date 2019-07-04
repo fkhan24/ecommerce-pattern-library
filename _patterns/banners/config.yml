@@ -1,6 +1,6 @@
 title: "Banners"
 description: |
-  Banners are used as a call to action on the main page.
+  Banners are used as a call to action on the main page and on a secondary page.
 
 patterns:
   banner:
