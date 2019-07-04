@@ -1,0 +1,31 @@
+---
+layout: default
+---
+
+<div class="grid">
+  <div class="unit xs-1 s-1 m-1-2 l-1-2 island">
+    <div class="pad-b">
+      {% pattern forms/main-form for="name" header="Full Name" type="text" placeholder="First Name, Last Name" id="name" %}
+    </div>
+    <div class="pad-b">
+      {% pattern forms/main-form for="address" header="Address" type="text" placeholder="Address" id="address" %}
+    </div>
+    <div class="pad-b">
+      {% pattern forms/data-list %}
+    </div>
+    <div class="pad-b">
+      {% pattern forms/main-form for="phone" header="Phone" type="phone" placeholder="Phone" id="phone" %}
+    </div>
+    <div class="pad-b">
+      {% pattern forms/main-form for="city" header="City" type="phone" placeholder="City" id="city" %}
+    </div>
+    <div class="pad-b">
+      {% pattern forms/main-form for="postalcode" header="Postal Code" type="postalcode" placeholder="Postal Code" id="postalcode" %}
+    </div>
+    {% pattern buttons/basic text="Check Out" url="#" %}
+  </div>
+
+  <div class="unit xs-1 s-1 m-1-2 l-1-2 island">
+    {% pattern sections/form-section %}
+  </div>
+</div>
