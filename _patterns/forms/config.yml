@@ -1,6 +1,6 @@
 title: "Form"
 description: |
-  Forms are used for documenting information in the necessary text fiellds during checkout or subscribing to a mailing list.
+  Forms are used for documenting information in the necessary text fields during checkout or subscribing to a mailing list.
 
 patterns:
   data-list:

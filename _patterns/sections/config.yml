@@ -22,3 +22,7 @@ patterns:
     title: "Form Section"
     description: |
       Used to separate form content.
+  email-section:
+    title: "Email Section"
+    description: |
+      Used to separate email capture for subscription lists.
