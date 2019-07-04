@@ -39,7 +39,7 @@ The pattern library is a Jekyll & Patternbot based application that requires a r
 
 ## Helpful links
 
-Netlify URL: [](https://peaceful-wilson-c95465.netlify.com/)
+Netlify URL: [https://peaceful-wilson-c95465.netlify.com](https://peaceful-wilson-c95465.netlify.com)
 
 ---
 
