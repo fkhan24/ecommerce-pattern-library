@@ -44,3 +44,15 @@
   color: var(--color-neutral);
   border-color: var(--color-secondary);
 }
+
+.btn-bold {
+  background-color: var(--color-primary-light);
+  color: var(--color-secondary);
+  border-color: var(--color-primary);
+}
+
+.btn-bold:hover {
+  background-color: var(--color-primary);
+  color: var(--color-neutral);
+  border-color: var(--color-primary);
+}

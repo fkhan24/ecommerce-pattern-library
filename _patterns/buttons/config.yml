@@ -17,6 +17,19 @@ patterns:
         type: url
         example: "/products/"
         required: false
+  bold:
+    title: "Bold Button"
+    description: |
+      Extra button to be used if other buttons do not contrast.
+    fields:
+      - name: text
+        type: string
+        example: "Buy Now"
+        required: false
+      - name: url
+        type: url
+        example: "#"
+        required: false
   cart:
     title: "Cart Button"
     description: |
