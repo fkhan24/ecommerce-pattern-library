@@ -13,4 +13,4 @@ patterns:
         example: "banner"
       - name: text
         type: string
-        example: "Infuse your senses with a dose of our essential oils"
+        example: "Infuse your senses with our essential oils"
