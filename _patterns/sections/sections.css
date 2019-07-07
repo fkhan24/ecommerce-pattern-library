@@ -2,7 +2,7 @@
   color: #000;
 }
 
-h3 {
+.email-text {
   color: var(--color-primary);
 }
 

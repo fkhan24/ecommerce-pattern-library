@@ -36,6 +36,7 @@
   background-color: var(--color-neutral);
   color: var(--color-secondary);
   border-color: var(--color-primary);
+  border-radius: 10px;
 }
 
 .btn-cart:hover {
