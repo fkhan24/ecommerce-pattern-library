@@ -35,7 +35,7 @@
 .btn-cart {
   background-color: var(--color-neutral);
   color: var(--color-secondary);
-  border-color: var(--color-neutral);
+  border-color: var(--color-primary);
 }
 
 .btn-cart:hover {
