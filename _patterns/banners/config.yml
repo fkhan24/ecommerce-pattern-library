@@ -10,7 +10,7 @@ patterns:
     fields:
       - name: image
         type: string
-        example: "banner-2"
+        example: "banner"
       - name: text
         type: string
         example: "Infuse your senses with our essential oils"
