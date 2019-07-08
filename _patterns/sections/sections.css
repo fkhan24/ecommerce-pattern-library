@@ -18,3 +18,7 @@
   padding-right: 7em;
   padding-left: 7em;
 }
+
+.product {
+  color: var(--color-secondary);
+}
