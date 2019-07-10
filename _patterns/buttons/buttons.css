@@ -40,9 +40,9 @@
 }
 
 .btn-cart:hover {
-  background-color: var(--color-accent-light);
+  background-color: var(--color-secondary);
   color: var(--color-neutral);
-  border-color: var(--color-accent-light);
+  border-color: var(--color-primary-light);
 }
 
 .btn-bold {
